@@ -1,4 +1,4 @@
-command: "echo Hello World!",
+command: 'date +"%T Hello"',
 
 refreshFrequency: 1000,
 
@@ -7,8 +7,8 @@ render: function (output) {
 },
  
 style: "        \n\
-  top: 20px     \n\
-  left: 20px    \n\
+  top: 500px     \n\
+  left: 960px    \n\
                 \n\
   h1            \n\
     color: #fff \n\
